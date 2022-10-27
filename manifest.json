@@ -18,10 +18,10 @@
     "content_scripts": [
         {
             "matches": [
-                "https://live.bilibili.com/",
-                "https://live.douyin.com/",
-                "https://live.kuaishou.com/",
-                "https://www.huya.com/"
+                "https://live.bilibili.com/*",
+                "https://live.douyin.com/*",
+                "https://live.kuaishou.com/*",
+                "https://www.huya.com/*"
             ],
             "js": [
                 "core/posting_core.js"
